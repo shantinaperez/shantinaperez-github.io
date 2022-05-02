@@ -1,2 +1,2 @@
-# shantinaperez-github.io
+# shantinaperez.github.io
 Change this later
