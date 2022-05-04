@@ -1,0 +1,126 @@
+/* https://coolors.co/331e36-1985a1-ffd4ca-c2efeb-c4fff9 */
+
+section#intro {
+    background-color: #331e36;
+    color: white;
+    height: 100vh;
+    padding-bottom: 15px;
+}
+
+#intro h1 {
+    font-size: 96px;
+    animation: fadein ease-in 1s;
+}
+
+#intro h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#intro code {
+    font-size: 32px;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#intro #arrow {
+    font-size: 55px;
+    position: absolute;
+    bottom: 40px;
+}
+
+#intro #arrow:hover {
+    color: #1985a1;
+}
+
+section#about {
+    padding-top: 15px;
+    padding-left: 75px;
+    background-color: #846075;
+    color: white;
+    padding-bottom: 15px;
+    padding-right: 75px;
+}
+
+section#contact {
+    padding-top: 15px;
+    padding-left: 75px;
+    background-color: #846075;
+    color: white;
+    padding-bottom: 15px;
+    padding-right: 75px;
+}
+#Submit {
+    width: 100%;
+}
+#submitButton {
+    background: rgb(89, 187, 222);
+    color: white;
+    width: 100%;
+}
+
+#submitButton:hover {
+    background: papayawhip;
+    color: white;
+}
+
+section#portfolio {
+    padding-top: 15px;
+    padding-left: 75px;
+    background-color: rgb(89, 187, 222);
+    /* background-color: #bee3db; */
+    color: white;
+    padding-right: 75px;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #331e36;
+    padding: 20px;
+    color: #d63384;
+}
+
+.card {
+    color: black;
+}
+
+body {
+    background-color: #331e36;
+}
+
+.navbar {
+    background-color: #846075 !important;
+    color: white;
+}
+
+#project {
+    background-color: rgb(89, 187, 222);
+    color: white;
+    padding: 20px;
+}
+
+#project img {
+    border-radius: 10px;
+}
+
+#project #navArrows span {
+    font-size: 40px;
+    margin-top: 25px;
+}
